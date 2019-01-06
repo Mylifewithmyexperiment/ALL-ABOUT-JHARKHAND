@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">ALL ABOUT JHARKHAND</string>
+    <string name="title_activity_home__page">HOME_PAGE</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="rate_app_title">Rate our App</string>
+    <string name="rate_app_message">If you like our app, please take a moment to rate it in play store!</string>
+    <string name="dialog_app_rate">Rate App</string>
+    <string name="dialog_ask_later">Later</string>
+    <string name="dialog_your_feedback">Your Feedback</string>
+    <string name="app_message"> you visited %d times</string>
+
+    <string name="text1"> How will I know about my nearby location like hopitals, Schools
+        etc?</string>
+
+    <string name="text2">  To know about near by location of hospitals, schools,etc.. you need to
+        go to map your location menu. The map will initially show you your current location.Now
+        click
+        on Hopital button, it will show you your near by hospitals, accordingly click on other
+        buttons to get information.
+    </string>
+
+    <string name="text3">How to ask query?</string>
+    <string name="text4">Go to Query menu from navigation drawer. Now submit few
+    details
+    about yourself  like
+    Name ,
+    Email &amp; Phone no. and post your query. Your query will be responded shortly.
+</string>
+    <string name="text5"> How to give Feedback ?</string>
+
+    <string name="text6">To give feedback.  Write your name,Email &amp;amp; phone no. then submit your
+        feedback. The
+        person from
+        Administration will contact if your
+        feedback are appreciating.
+    </string>
+    <string name="text7"> How do I get the weather information of any other place?</string>
+    <string name="text8">Just write your city name, click on ok. It will automatically show you
+        temperature in
+        celsius along with weather condition.
+    </string>
+    <string name="text9">How to know about other districts which are not available in app?
+    </string>
+    <string name="text10"> To know about other district click on button ""Know about other
+        districts"" in the respective section, provided at the end.  </string>
+
+
+    <string name="text50">All About Jharkhand is an informative app to facilitate the people of
+        Jharkhand about the various demographic and non-demographic information.\n
+        It not only provides information about various sectors of Jharkhand like Population Growth
+         Tourist places, Literacy Rate, Gender ratio etc,etc,.. but also give its user the
+        details of climate(to plan beforehand the visit to any district), location of nearby places
+        like hospitals, schools ..\n
+        Users have an option to ask query about
+        their district problems  and
+        submitting their positive or negative feedback to government,which would help government
+        to pay attention to the issues.\n
+        At last, we have added quiz to check user knowledge about Jharkhand state.
+    </string>
+
+    <string name="text60"> The basic objectives of our App are:-\n
+        #  to empower people to add voice regarding development of Jharkhand state\n
+        #  allowing them to give feedback to improve their locality.\n
+        #  to facilitate people with all demographic and non demographics information\n
+        #  providing details of nearby location of essential places like hospitals, schools etc.\n
+        # adding a quiz to check user knowledge about Jharkhand State.\n
+   </string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_about">ABOUT</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+</resources>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                android:background="@drawable/background1"
+                tools:context=".Miscellaneous.About_Developer">
+
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/linear"
+            android:layout_above="@+id/adView"
+            android:orientation="vertical">
+
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                android:minHeight="?attr/actionBarSize"
+                />
+        </android.support.design.widget.AppBarLayout>
+
+
+
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:id="@+id/scroll"
+                android:layout_height="match_parent">
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_weight="1"
+                        android:src="@drawable/sj"/>
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SHASHI JAISWAL"
+                        android:textColor="#992233"
+                        android:textStyle="italic"
+                        android:textSize="30dp"
+                        android:layout_below="@+id/imageView5"
+                        android:layout_centerHorizontal="true" />
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textSize="20dp"
+                        android:textColor="#FF0000"
+                        android:textStyle="italic"
+                        android:text="              COMPUTER SCIENCE ENGINEER                   BIT MESRA"
+                        android:layout_below="@+id/textView32"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textView29"
+                        android:layout_centerHorizontal="true"
+                        android:text="ANDROID APP DEVELOPER"
+                        android:textSize="25dp"
+                        android:textColor="#ff0000"/>
+
+                    <ImageButton
+                        android:id="@+id/fb"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/textView31"
+                        android:layout_toStartOf="@+id/imageView5"
+                        app:srcCompat="@drawable/fb"/>
+
+
+                    <ImageButton
+                        android:id="@+id/twitter2"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/textView31"
+                        android:layout_marginStart="31dp"
+                        android:layout_toEndOf="@+id/fb"
+                        android:background="@drawable/background1"
+                        app:srcCompat="@drawable/twitter2"/>
+
+
+                    <ImageButton
+                        android:id="@+id/insta"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignEnd="@+id/textView32"
+                        android:layout_alignRight="@+id/textView32"
+                        android:layout_below="@+id/textView31"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginRight="20dp"
+                        app:srcCompat="@drawable/insta"/>
+
+                    <TextView
+                        android:id="@+id/tv_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="23dp"
+                        android:textSize="20dp"
+                        android:layout_below="@+id/fb"
+                        android:textColor="#FF0088"
+                        android:text="Email :- shashi.jaiswal17@gmail.com" />
+
+
+                    <TextView
+                        android:id="@+id/tv_monika"
+                        android:layout_below="@id/tv_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                          android:textSize="20dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="50dp"
+                        android:textColor="#ff0000"
+                        android:text=" "/>
+
+                    <ImageButton
+                        android:id="@+id/btn_lk_dn"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/textView31"
+                        android:layout_marginEnd="37dp"
+                        android:layout_toStartOf="@+id/insta"
+                        app:srcCompat="@drawable/icon_linkedin"/>
+
+                </RelativeLayout>
+
+
+            </ScrollView>
+
+
+        </LinearLayout>
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5278704802151871/3653804946"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true">
+    </com.google.android.gms.ads.AdView>
+
+
+
+
+</RelativeLayout>

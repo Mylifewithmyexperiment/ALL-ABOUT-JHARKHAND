@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:card_view="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="#FFFFFF"
+              android:layout_height="match_parent">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:padding="0dp"
+        >
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:id="@+id/imageview"
+                    android:scaleType="fitXY"
+                    android:layout_margin="3dp"
+                    android:src="@drawable/twitter2"/>
+
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Title"
+                    android:padding="0dp"
+                    android:gravity="start"
+                    android:layout_marginLeft="0dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_margin="5dp"
+                    android:textColor="#fe1e2730"
+
+                    />
+
+                <TextView
+                    android:id="@+id/kumar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="kumar"
+                    android:visibility="gone"
+                    />
+                <TextView
+                    android:id="@+id/subtitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Subtitle"
+                    android:visibility="gone"
+                    android:layout_margin="3dp"/>
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,155 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    <!--
+   <item name="colorPrimary">?attr/actionModeSplitBackground</item>
+   <item name="colorPrimaryDark">@color/shashi</item>
+   <item name="colorAccent">@color/colorAccent</item>
+-->
+
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+
+
+        <item name="colorPrimary">#689f38</item>
+
+        <item name="colorPrimaryDark">#33691e</item>
+
+        <item name="colorAccent">#7cb342</item>
+
+
+
+
+</style>
+
+<style name="AppTheme.NoActionBar">
+   <item name="windowActionBar">false</item>
+   <item name="windowNoTitle">true</item>
+</style>
+
+<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+
+
+
+<style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+   <item name="windowNoTitle">true</item>
+   <item name="windowActionBar">false</item>
+
+
+    <item name="colorPrimary">#689f38</item>
+
+    <item name="colorPrimaryDark">#33691e</item>
+
+    <item name="colorAccent">#7cb342</item>
+
+
+
+    <item name ="actionMenuTextColor">        #ff8f00      </item>
+
+
+
+</style>
+
+
+
+
+
+
+<!--
+
+<style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+   <item name="windowNoTitle">true</item>
+   <item name="windowActionBar">false</item>
+   <item name="colorPrimary">@color/shashi</item>      //title bar
+   <item name="colorPrimaryDark">@color/shashi</item>      // status (upper most layer) bar
+   <item name="colorAccent">@color/shashi</item>           //ui controls buttons, edit text etc..
+
+
+   <item name="windowBackground">#ffb300</item>// the color of screen background
+
+</style>
+
+
+
+
+
+
+
+
+earlier one
+
+
+
+
+
+-->
+
+
+
+
+
+</resources>
+
+
+
+
+
+
+
+
+
+    <!--  comments format in xml
+
+
+
+ <item name="android:displayOptions">disableHome</item>
+
+to use this set  api level to 21 in gradle
+
+ <item name="android:colorPrimary">@color/primary</item>
+    <item name="android:colorPrimaryDark">@color/primary_dark</item>
+    <item name="android:colorAccent">@color/accent</item>
+    <item name="android:navigationBarColor">@color/primary_dark</item>
+
+
+
+
+
+
+    <style name="RegisterTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <! Customize your theme here. -->
+<!--
+<item name="colorPrimary">#3F51B5</item>
+<item name="colorPrimaryDark">#303F9F</item>
+<item name="colorAccent">#FF4081</item>
+
+    </style>
+
+<style name="FeedbackTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+  Customize your theme here. -->
+<!--
+<item name="colorPrimary">#E91E63</item>
+<item name="colorPrimaryDark">#C21853</item>
+<item name="colorAccent">#F57C00</item>
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+    -->

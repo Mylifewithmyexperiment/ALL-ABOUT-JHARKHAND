@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/background1"
+android:scrollbars="none"
+android:orientation="vertical"
+tools:context=".Jharkhand_Quiz.JHARKHAND_Quiz">
+
+
+    <LinearLayout
+        android:id="@+id/liner1"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                android:minHeight="?attr/actionBarSize"
+                />
+        </android.support.design.widget.AppBarLayout>
+
+<LinearLayout
+    android:id="@+id/linear2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/relative2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <Button
+                android:id="@+id/start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:alpha="0.50"
+                android:text="Start"
+                android:textColor="#f8fdf9"
+                android:textStyle="italic"/>
+
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/start"
+                android:layout_toLeftOf="@id/over"
+
+                android:gravity="start"
+                android:textColor="#0000ff"
+                />
+
+
+            <Button
+                android:id="@+id/over"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:alpha="0.50"
+                android:text="STOP"
+                android:textColor="#f8fdf9"
+                android:textStyle="italic"/>
+
+        </RelativeLayout>
+
+
+</LinearLayout>
+
+
+
+<LinearLayout
+    android:id="@+id/linear3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/relative3.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_Level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:text="Level"
+            android:textSize="20dp"
+            android:textColor="@android:color/holo_red_dark"/>
+
+
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="95dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="24dp"/>
+
+
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/score"
+            android:gravity="center"
+
+            android:textColor="@android:color/black"
+            android:textSize="24dp"
+            android:layout_alignParentStart="true"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linear4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/answer1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/answer2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:text="Button1"
+             />
+        <Button
+            android:id="@+id/answer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/answer3"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:text="Button2"
+             />
+
+        <Button
+            android:id="@+id/answer3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/answer4"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:text="Button3"
+             />
+
+
+
+        <Button
+            android:id="@+id/answer4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="25dp"
+            android:text="Button4"
+           />
+
+    </LinearLayout>
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear5"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-5278704802151871/3653804946"
+            android:layout_alignParentBottom="true"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true">
+        </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+</RelativeLayout>
+
+

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_map_gps"
+
+            android:title="Map Your Location"/>
+
+
+        <item
+            android:id="@+id/nav_weat"
+
+            android:title="Get Weather Info."/>
+        <item
+            android:id="@+id/purunews"
+
+            android:title="Get Jharkhand News"/>
+
+        <item
+            android:id="@+id/nav_quiz"
+
+            android:title="Play Jharkhand Quiz"/>
+<item
+            android:id="@+id/nav_que"
+
+            android:title=" Ask your Query from govt." />
+        <item
+        android:id="@+id/nav_fed"
+
+        android:title="Give your Feedback to govt."/>
+
+
+        <item
+            android:id="@+id/nav_state_map"
+
+            android:title="Jharkhand State Map"/>
+
+
+        <item
+            android:id="@+id/more_about_jharkhand"
+
+            android:title="More About Jharkhand"/>
+
+
+
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_abt_app"
+
+                android:title="About App"/>
+
+
+            <item
+                android:id="@+id/nav_faq"
+
+                android:title="FAQ"/>
+
+            <item
+                android:id="@+id/nav_share"
+
+                android:title="Share our App "/>
+            <item
+                android:id="@+id/nav_rate"
+
+                android:title="Rate us"/>
+
+            <item
+                android:id="@+id/nav_dev"
+
+                android:title="About Developer"/>
+
+        </menu>
+    </item>
+
+</menu>
+
+
+
+
+    <!--
+
+
+
+<item
+         android:id="@+id/nav_district_list"
+
+         android:title="List of Districts"/>
+
+
+    <item
+         android:id="@+id/nav_reg"
+
+         android:title="Register"/>
+
+     -->
+

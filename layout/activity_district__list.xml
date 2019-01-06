@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_bg_jhar"
+     >
+
+
+
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:id="@+id/linear"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            />
+    </android.support.design.widget.AppBarLayout>
+
+
+
+
+
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView android:id="@+id/imageView3" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/background1" android:scaleType="centerCrop" />
+
+    <ScrollView android:id="@+id/ScrollView01" android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:alpha="0.58"
+                    android:freezesText="true"
+                    android:textAlignment="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:onClick="PalamauActivity"
+                    android:text="Palamau"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="397dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:alpha="0.58"
+                    android:freezesText="true"
+                    android:textAlignment="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:onClick="LateharActivity"
+                    android:text="Latehar"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:alpha="0.58"
+                    android:freezesText="true"
+                    android:textAlignment="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:onClick="GarhwaActivity"
+                    android:text="Garhwa"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:padding="1dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:alpha="0.58"
+                    android:freezesText="true"
+                    android:textAlignment="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:onClick="ChatraActivity"
+                    android:text="Chatra"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:alpha="0.58"
+                    android:freezesText="true"
+                    android:textAlignment="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:onClick="HazaribaghActivity"
+                    android:text="Hazaribagh"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:alpha="0.58"
+                    android:freezesText="true"
+                    android:textAlignment="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:onClick="KodermaActivity"
+                    android:text="Koderma"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:alpha="0.58"
+                    android:freezesText="true"
+                    android:textAlignment="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:onClick="GiridihActivity"
+                    android:text="Giridih"/>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:alpha="0.58"
+                    android:freezesText="true"
+                    android:textAlignment="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:onClick="RamgarhActivity"
+                    android:text="Ramgarh"/>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:alpha="0.58"
+                    android:freezesText="true"
+                    android:textAlignment="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:onClick="BokaroActivity"
+                    android:text="Bokaro"/>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:alpha="0.58"
+                    android:freezesText="true"
+                    android:textAlignment="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:onClick="DhanbadActivity"
+                    android:text="Dhanbad"/>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:alpha="0.58"
+                    android:freezesText="true"
+                    android:textAlignment="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:onClick="LohardagaActivity"
+                    android:text="Lohardaga"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:alpha="0.58"
+                    android:freezesText="true"
+                    android:textAlignment="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:onClick="GumlaActivity"
+                    android:text="Gumla"/>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:alpha="0.58"
+                    android:freezesText="true"
+                    android:textAlignment="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:onClick="SimdegaActivity"
+                    android:text="Simdega"/>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:alpha="0.58"
+                    android:freezesText="true"
+                    android:textAlignment="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:onClick="RanchiActivity"
+                    android:text="Ranchi"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:alpha="0.58"
+                    android:freezesText="true"
+                    android:textAlignment="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:onClick="KhuntiActivity"
+                    android:text=" Khunti"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:alpha="0.58"
+                    android:freezesText="true"
+                    android:textAlignment="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:onClick="West_SinghbhumActivity"
+                    android:text="West Singhbhum"/>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:alpha="0.58"
+                    android:freezesText="true"
+                    android:textAlignment="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:onClick="Saraikela_KharsawanActivity"
+                    android:text="Saraikela Kharsawan"/>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:alpha="0.58"
+                    android:freezesText="true"
+                    android:textAlignment="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:onClick="East_SinghbhumActivity"
+                    android:text="East Singhbhum"/>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:alpha="0.58"
+                    android:freezesText="true"
+                    android:textAlignment="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:onClick="JamtaraActivity"
+                    android:text="Jamtara"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:alpha="0.58"
+                    android:freezesText="true"
+                    android:textAlignment="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:onClick="DeogharActivity"
+                    android:text="Deoghar"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:alpha="0.58"
+                    android:freezesText="true"
+                    android:textAlignment="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:onClick="DumkaActivity"
+                    android:text="Dumka"/>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:alpha="0.58"
+                    android:freezesText="true"
+                    android:textAlignment="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:onClick="PakurActivity"
+                    android:text="Pakur"/>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:alpha="0.58"
+
+                    android:freezesText="true"
+                    android:textAlignment="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:onClick="GoddaActivity"
+                    android:text="Godda"/>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:alpha="0.58"
+
+                    android:freezesText="true"
+                    android:textAlignment="center"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:onClick="SahebganjActivity"
+                    android:text="Sahebganj"/>
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>
+</LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

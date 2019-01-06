@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+android:background="#689f38"
+    tools:context=".Miscellaneous.Faq">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_above="@id/adView">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            android:minHeight="?attr/actionBarSize"
+            />
+    </android.support.design.widget.AppBarLayout>
+
+
+
+
+
+
+
+
+
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/faq_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+             >
+
+            <TextView
+                android:id="@+id/faq"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:text="Frequently Asked Questions"
+                android:textColor="#008822"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+        <TextView
+
+            android:id="@+id/need_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I need help in  :"
+            android:layout_below="@+id/faq_layout"
+            android:textSize="23sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#440044"
+            android:textStyle="bold|italic"
+            />
+
+        <TextView
+            android:id="@+id/registration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Nearby Location Information "
+            android:layout_below="@+id/need_help"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#880000"
+            android:textStyle="bold|italic"
+            />
+
+        <WebView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/text1"
+            android:layout_marginLeft="20dp"
+            android:background="#689f38"
+            android:layout_below="@+id/registration"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            />
+
+        <WebView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/text2"
+            android:layout_marginLeft="20dp"
+            android:background="#689f38"
+            android:layout_below="@+id/text1"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:id="@+id/ask_query"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Asking Query : "
+            android:layout_below="@+id/text2"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#880000"
+            android:textStyle="bold|italic"
+            />
+
+               <WebView
+                   android:id="@+id/text3"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginLeft="20dp"
+                   android:background="#689f38"
+                   android:layout_marginRight="10dp"
+                   android:layout_below="@id/ask_query"
+                   android:textSize="15dp"
+                   android:text="@string/text3"
+
+                   />
+
+        <WebView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:background="#689f38"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/text3"
+            android:textSize="15dp"
+            android:text="@string/text4"
+            />
+
+
+        <TextView
+            android:id="@+id/ask_feed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Regarding Feedback  : "
+            android:layout_below="@+id/text4"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#880000"
+            android:textStyle="bold|italic"
+            />
+
+        <WebView
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:background="#689f38"
+            android:layout_below="@id/ask_feed"
+            android:textSize="15dp"
+            android:text="@string/text5"
+
+            />
+
+        <WebView
+            android:id="@+id/text6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="#689f38"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/text5"
+            android:textSize="15dp"
+            android:text="@string/text6"
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/ask_weath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Regarding Weather  : "
+            android:layout_below="@+id/text6"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#880000"
+            android:textStyle="bold|italic"
+            />
+
+        <WebView
+            android:id="@+id/text7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#689f38"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/ask_weath"
+            android:textSize="15dp"
+            android:text="@string/text7"
+
+            />
+
+        <WebView
+            android:id="@+id/text8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="#689f38"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/text7"
+            android:textSize="15dp"
+            android:text="@string/text8"
+            />
+
+
+
+        <TextView
+            android:id="@+id/ask_other_dist_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Regarding Other district Information : "
+            android:layout_below="@+id/text8"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#880000"
+            android:textStyle="bold|italic"
+            />
+
+        <WebView
+            android:id="@+id/text9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:background="#689f38"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/ask_other_dist_info"
+            android:textSize="15dp"
+            android:text="@string/text9"
+
+            />
+
+        <WebView
+            android:id="@+id/text10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:background="#689f38"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/text9"
+            android:textSize="15dp"
+            android:text="@string/text10"
+            />
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</ScrollView>
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5278704802151871/3653804946"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true">
+    </com.google.android.gms.ads.AdView>
+
+
+
+
+
+</RelativeLayout>
+
+
+<!-- comments are written like this -->
